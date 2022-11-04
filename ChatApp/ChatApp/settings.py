@@ -81,6 +81,8 @@ TEMPLATES = [
 
 ASGI_APPLICATION = 'ChatApp.asgi.application'
 
+WSGI_APPLICATION = 'ChatApp.wsgi.application'
+
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
